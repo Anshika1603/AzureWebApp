@@ -11,7 +11,7 @@ public class HomeController {
         return "Hello World!";
     }
 
-    @GetMapping("/get")
+    @GetMapping("/api/name")
     public String find(){
         return "Its me Anshika";
     }
